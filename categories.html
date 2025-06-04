@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - 2ngTDE</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">2ngTDE</a>
+            
+            <nav class="nav-menu">
+                <ul class="nav-list" id="navList">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="shop.html" class="nav-link">Shop</a></li>
+                    <li class="nav-item"><a href="categories.html" class="nav-link active">Categories</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <div class="header-icons">
+                    <div class="header-icon">
+                        <i class="fas fa-search" id="searchIcon"></i>
+                    </div>
+                    <div class="header-icon">
+                        <i class="fas fa-user" id="userIcon"></i>
+                    </div>
+                    <div class="header-icon">
+                        <i class="fas fa-heart" id="wishlistIcon"></i>
+                    </div>
+                    <div class="header-icon">
+                        <i class="fas fa-shopping-cart" id="cartIcon"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Categories Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1 class="page-title">Categories</h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a> / <span>Categories</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-page">
+        <div class="container">
+            <div class="categories-grid">
+                <!-- Category 1 -->
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dCUyMHNoaXJ0fGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60" alt="T-Shirts" class="category-img">
+                    <div class="category-content">
+                        <h3 class="category-title">T-Shirts</h3>
+                        <p class="category-description">Comfortable and stylish t-shirts for everyday wear</p>
+                        <a href="shop.html?category=tshirts" class="btn">Shop Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 2 -->
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1584370848010-d7fe6bc767ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8amVhbnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Jeans" class="category-img">
+                    <div class="category-content">
+                        <h3 class="category-title">Jeans</h3>
+                        <p class="category-description">Durable and fashionable jeans for all occasions</p>
+                        <a href="shop.html?category=jeans" class="btn">Shop Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 3 -->
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1591369822096-ffd140ec948f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZHJlc3Nlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Dresses" class="category-img">
+                    <div class="category-content">
+                        <h3 class="category-title">Dresses</h3>
+                        <p class="category-description">Elegant dresses for special occasions and everyday wear</p>
+                        <a href="shop.html?category=dresses" class="btn">Shop Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 4 -->
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1617331721458-bd3bd3f9c7f8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3dlYXRlcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Sweaters" class="category-img">
+                    <div class="category-content">
+                        <h3 class="category-title">Sweaters</h3>
+                        <p class="category-description">Warm and cozy sweaters for cold weather</p>
+                        <a href="shop.html?category=sweaters" class="btn">Shop Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 5 -->
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1611923134239-b16b1d0885f4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8YWNjZXNzb3JpZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Accessories" class="category-img">
+                    <div class="category-content">
+                        <h3 class="category-title">Accessories</h3>
+                        <p class="category-description">Complete your look with our stylish accessories</p>
+                        <a href="shop.html?category=accessories" class="btn">Shop Now</a>
+                    </div>
+                </div>
+
+                <!-- Category 6 -->
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1520013333831-acd77cc89d36?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8c2hvZXN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Shoes" class="category-img">
+                    <div class="category-content">
+                        <h3 class="category-title">Shoes</h3>
+                        <p class="category-description">Comfortable and stylish shoes for every occasion</p>
+                        <a href="shop.html?category=shoes" class="btn">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="featured-collections">
+        <div class="container">
+            <h2 class="section-title">Featured Collections</h2>
+            <div class="collections-grid">
+                <!-- Collection 1 -->
+                <div class="collection-card">
+                    <img src="https://images.unsplash.com/photo-1445205170230-053b83016050?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGZhc2hpb258ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="Summer Collection" class="collection-img">
+                    <div class="collection-content">
+                        <h3 class="collection-title">Summer Collection</h3>
+                        <p class="collection-description">Light and breezy styles for hot summer days</p>
+                        <a href="shop.html?collection=summer" class="btn">View Collection</a>
+                    </div>
+                </div>
+
+                <!-- Collection 2 -->
+                <div class="collection-card">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFzaGlvbnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Winter Collection" class="collection-img">
+                    <div class="collection-content">
+                        <h3 class="collection-title">Winter Collection</h3>
+                        <p class="collection-description">Stay warm and stylish during the cold season</p>
+                        <a href="shop.html?collection=winter" class="btn">View Collection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="newsletter-title">Subscribe to Our Newsletter</h2>
+            <p class="newsletter-text">Get the latest updates on new products and upcoming sales</p>
+            <form class="newsletter-form">
+                <input type="email" class="newsletter-input" placeholder="Your email address">
+                <button type="submit" class="newsletter-btn">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 class="footer-title">2ngTDE</h3>
+                <p>Your one-stop destination for trendy and comfortable clothing for all seasons.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-title">Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-title">Categories</h3>
+                <ul class="footer-links">
+                    <li><a href="shop.html?category=tshirts">T-Shirts</a></li>
+                    <li><a href="shop.html?category=jeans">Jeans</a></li>
+                    <li><a href="shop.html?category=dresses">Dresses</a></li>
+                    <li><a href="shop.html?category=sweaters">Sweaters</a></li>
+                    <li><a href="shop.html?category=accessories">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3 class="footer-title">Contact Us</h3>
+                <ul class="footer-contact">
+                    <li>
+                        <i class="fas fa-map-marker-alt contact-icon"></i>
+                        <span>123 Fashion Street, City, Country</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-alt contact-icon"></i>
+                        <span>+1 234 567 890</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <span>info@2ngtde.com</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 2ngTDE. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
